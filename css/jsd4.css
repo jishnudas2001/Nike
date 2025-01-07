@@ -1,0 +1,186 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.icon-bar{
+    background-color: black;
+}
+.a1{
+    color: black;
+    text-decoration: none;
+}
+.div1{
+    width: 100%;
+    height: 70px;
+    background-color: rgba(240, 238, 234, 0.74);
+    margin-top: -20px;
+}
+.btn2{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 70px;
+    font-size: 17px;
+    margin-left:-5px;
+}
+.a4{
+   margin-left: 80px; 
+   font-size: 24px;
+    color: black; 
+    margin-top: 50px;
+}
+.a4:hover{
+    color: black;
+    text-decoration: none;
+}
+.container{
+    width: 1460px;
+    margin-left: 45px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+.image-list{
+    width: 100%;
+    height: 720px;
+    display: grid;
+    gap: 18px;
+    font-size: 0;
+    overflow-x: auto;
+    scrollbar-width: none;
+    grid-template-columns: repeat(10,1fr);
+    margin-top: 100px;
+}
+.image-item{
+    width: 440px;
+    height: 505px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    object-fit: cover;    
+}
+.slider-wapper{
+    position: relative;
+}
+.slider-button1{
+    position: absolute;
+    color: black;
+    border: none;
+    outline: none;
+    background: rgb(221, 221, 221);
+    font-size: 2.3rem;
+    cursor: pointer;
+    border-radius: 30px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 6px;
+    padding-bottom: 2px;
+    margin-left: 5%;
+    transform: translateY(-50%);
+    margin-top: 50px;
+}
+.slider-button2{
+    position: absolute;
+    color: black;
+    border: none;
+    outline: none;
+    background: rgb(221, 221, 221);
+    font-size: 2.3rem;
+    cursor: pointer;
+    border-radius: 30px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 6px;
+    padding-bottom: 2px;
+    margin-left: 12%;
+    transform: translateY(-50%);
+    margin-top: 50px;
+}
+.slider-button1:hover{
+    background-color: rgb(161, 155, 155);
+}
+.slider-button2:hover{
+    background-color: rgb(161, 155, 155);
+}
+.membership{
+    width: 100%; 
+    height: 40px; 
+    background-color: red; 
+    margin-top: 70px;
+}
+.heading{
+    position: absolute;
+    font-size: 25px;
+    margin-top: 40px;
+    margin-left: 30%;
+}
+.img-list{
+    width: 100%;
+    height: 650px;
+    display: grid;
+    gap: 10px;
+    font-size: 0;
+    overflow-x: auto;
+    scrollbar-width: none;
+    grid-template-columns: repeat(10,1fr);
+    margin-top: 100px;
+}
+.img-list::-webkit-scrollbar{
+    display: none;
+}
+.img-item{
+    width: 470px;
+    height: 570px;
+    margin-bottom: 50px;
+    object-fit: cover;    
+}
+.btn3{
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 70px;
+    font-size: 17px;
+    border: none;
+    margin-top: 600px;
+}
+hr{
+    background-color: rgb(149, 142, 142);
+    width: 100%;
+    height: 1px;
+    margin-top: 50px;
+}
+.div-hr{
+    width: 100%;
+}
+.i2{
+    position: absolute;
+    margin-top: -1px;
+}
+.a5{
+    color: rgb(106, 103, 103);
+    font-size: 16px;
+
+}
+.a5:hover{
+    color: black;
+    text-decoration: none;
+}
+.a5:visited{
+    color: rgb(106, 103, 103);
+    text-decoration: none;
+}
+.btn-a{
+    color: white;
+    text-decoration: none;
+}
+.btn-a:hover{
+    color: white;
+    text-decoration: none;
+}
+.div-seco-footer{
+    width: 100%;
+    margin-top: 70px;
+}

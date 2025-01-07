@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: o;
+}
+body{
+    margin-top: 5%;
+    margin-left: 20%;
+}
+.span1{
+    position: absolute;
+    margin-top: 100px;
+}
+.p1{
+    font-size: 30px;
+}
+.span2{
+    position: absolute;
+    margin-top: 200px;
+    font-size: 17px;
+    color: black;
+}
+.a1{
+    color: rgb(110, 108, 108);
+    text-decoration: underline;
+}
+.p2{
+    margin-top: 40px;
+    font-size: 17px;
+}
+button{
+    background-color: black;
+    color: white;
+    padding: 9px;
+    padding-left: 23px;
+    padding-right: 23px;
+    border-radius: 70px;
+    font-size: 17px;
+    margin-top: 30px;
+    margin-left: 23%;
+    font-weight: bold;
+}
+.div2{
+    position: absolute;
+    margin-top: -121px;
+    margin-left: 50px;
+}
+.dropdown-menu{
+    width: 400px;
+    height: 520px;
+    overflow-y: scroll;
+}
+.a2{
+    font-size: 17px;
+}
+input{
+    width: 100%;
+    height: 60px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin-top: 260px;
+}
+.input-group{
+    position: relative;
+}
+.input-group .placeholder{
+    position: absolute;
+    top: 280px;
+    left: 10px;
+    font-size: 15px;
+    padding: 0px 5px;
+    color: rgb(110, 108, 108);
+    transition: 0.3s;
+    pointer-events: none;
+}
+.input:focus + .placeholder{
+    top: 250px;
+    background-color: white;
+    font-size: 12px;
+}
+.img1{
+    position: absolute;
+    width: 60px;
+    margin-top: 20px;
+}
+.img2{
+    position: absolute;
+    width: 40px;
+    margin-top: 20px;
+    margin-left: 70px;
+}
